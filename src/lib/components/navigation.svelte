@@ -8,8 +8,8 @@
 <nav class="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
 	<div class="container mx-auto px-4">
 		<div class="flex h-16 items-center justify-between">
-			<a href="/" class="text-xl font-bold">
-				Peppi
+			<a href="/" class="text-xl font-black uppercase tracking-tighter">
+				<span class="bg-gradient-to-b from-foreground to-foreground/60 bg-clip-text text-transparent">Peppi</span>
 			</a>
 			<div class="flex items-center gap-4">
 				<a
@@ -19,10 +19,10 @@
 					Home
 				</a>
 				<a
-					href="/downloads"
-					class="text-sm font-medium transition-colors hover:text-primary {currentPath === '/downloads' ? 'text-primary' : 'text-muted-foreground'}"
+					href="/faq"
+					class="text-sm font-medium transition-colors hover:text-primary {currentPath === '/faq' ? 'text-primary' : 'text-muted-foreground'}"
 				>
-					Downloads
+					FAQ
 				</a>
 				<a
 					href="/pricing"
@@ -37,4 +37,3 @@
 		</div>
 	</div>
 </nav>
-
